@@ -17,7 +17,7 @@ else
     echo "Dependencies not found. Please install lutris and inotify-tools"
 fi
 
-echo "Hello, please follow https://www.reddit.com/r/BeamMP/comments/oi67rf/beammp_on_linux_guide/ to setup BeamMP if you haven't already. Press enter when this is done."
+echo "Hello, please follow https://web.archive.org/web/20210711151252/https://www.reddit.com/r/BeamMP/comments/oi67rf/beammp_on_linux_guide/ to setup BeamMP if you haven't already. Press enter when this is done."
 read
 
 echo "Is $HOME/.steam/steam/steamapps/compatdata/284160/pfx/drive_c/users/$USER/AppData/Local/BeamNG.drive/0.26/mods/ is this the path of BeamNG.Drive's mods folder for proton? [y/n]"
