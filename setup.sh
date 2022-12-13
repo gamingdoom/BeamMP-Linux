@@ -20,20 +20,20 @@ fi
 echo "Hello, please follow https://web.archive.org/web/20210711151252/https://www.reddit.com/r/BeamMP/comments/oi67rf/beammp_on_linux_guide/ to setup BeamMP if you haven't already. Press enter when this is done."
 read
 
-echo "Is $HOME/.steam/steam/steamapps/compatdata/284160/pfx/drive_c/users/$USER/AppData/Local/BeamNG.drive/0.26/mods/ is this the path of BeamNG.Drive's mods folder for proton? [y/n]"
+echo "Is $HOME/.steam/steam/steamapps/compatdata/284160/pfx/drive_c/users/$USER/AppData/Local/BeamNG.drive/0.27/mods/ is this the path of BeamNG.Drive's mods folder for proton? [y/n]"
 
 if ! yes_or_no; then
     read -p "Please enter BeamNG.Drive's mods folder for proton: " protonpath
 else
-    protonpath="$HOME/.steam/steam/steamapps/compatdata/284160/pfx/drive_c/users/$USER/AppData/Local/BeamNG.drive/0.26/mods"
+    protonpath="$HOME/.steam/steam/steamapps/compatdata/284160/pfx/drive_c/users/$USER/AppData/Local/BeamNG.drive/0.27/mods"
 fi
 
-echo "Is $HOME/.local/share/BeamNG.drive/0.26/mods/ is this the path of BeamNG.Drive's mods folder for native? [y/n]"
+echo "Is $HOME/.local/share/BeamNG.drive/0.27/mods/ is this the path of BeamNG.Drive's mods folder for native? [y/n]"
 
 if ! yes_or_no; then
     read -p "Please enter BeamNG.Drive's mods folder for proton: " nativepath
 else
-    nativepath="$HOME/.local/share/BeamNG.drive/0.26/mods"
+    nativepath="$HOME/.local/share/BeamNG.drive/0.27/mods"
 fi
 
 read -p "Please enter the lutris identifier for BeamMP: " beammpid 
