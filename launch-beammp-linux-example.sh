@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # These two must be on the same drive
-protonModsFolder="$HOME/.steam/steam/steamapps/compatdata/284160/pfx/drive_c/users/$USER/AppData/Local/BeamNG.drive/0.26/mods"
-nativeModsFolder="$HOME/.local/share/BeamNG.drive/0.26/mods"
+protonModsFolder="$HOME/.steam/steam/steamapps/compatdata/284160/pfx/drive_c/users/$USER/AppData/Local/BeamNG.drive/0.27/mods"
+nativeModsFolder="$HOME/.local/share/BeamNG.drive/0.27/mods"
 
 # Lutris game identifiers
 lutrisbeammpid="beammp"
