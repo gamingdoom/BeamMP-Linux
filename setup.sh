@@ -46,6 +46,6 @@ echo "Downloading latest version of BeamMP. You will need to manually update thi
 wget https://github.com/BeamMP/BeamMP/releases/latest/download/beammp.zip -O $nativepath/multiplayer/beammp.zip
 
 echo "Generating a BeamMP launch script for you ..."
-cat launch-beammp-linux-template.sh | sed "s:PMODS:$protonpath:g" | sed "s:NMODS:$nativepath:g" | sed "s:MPID:$beammpid:g" | sed "s:MPID:$beammgid:g" > beammp-linux.sh
+cat launch-beammp-linux-template.sh | sed "s:PMODS:$protonpath:g" | sed "s:NMODS:$nativepath:g" | sed "s:MPID:$beammpid:g" | sed "s:NATIVEID:$beammgid:g" > beammp-linux.sh
 chmod +x beammp-linux.sh
 echo "Done. Run beammp-linux.sh with ./beammp-linux.sh to start BeamMP."

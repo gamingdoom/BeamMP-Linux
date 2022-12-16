@@ -17,7 +17,7 @@ echo "Launching BeamMP"
 lutris lutris:rungame/$lutrisbeammpid
 
 echo "Removing last time's mods"
-cd $nativeModsFolder/mods
+cd $nativeModsFolder
 find . ! -name beammp.zip ! -name BeamMP.zip -maxdepth 1 -type f -delete
 
 echo "Watching for mods that need to be loaded"
