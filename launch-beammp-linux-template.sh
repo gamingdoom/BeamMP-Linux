@@ -6,7 +6,7 @@ nativeModsFolder="NMODS"
 
 # Lutris game identifiers
 lutrisbeammpid="MPID"
-lutrisbeamnglinuxid="NATIVEID"
+lutrisbeamnglinuxid="NATID"
 
 # Launch BeamNG Linux and BeamMP from lutris.
 echo "Launching BeamNG Native Linux"
