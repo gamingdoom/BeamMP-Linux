@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 # These two must be on the same drive
 protonModsFolder="PMODS"
 nativeModsFolder="NMODS"
