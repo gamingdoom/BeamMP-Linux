@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # These two must be on the same drive
-protonModsFolder="$HOME/.steam/steam/steamapps/compatdata/284160/pfx/drive_c/users/$USER/AppData/Local/BeamNG.drive/0.27/mods"
-nativeModsFolder="$HOME/.local/share/BeamNG.drive/0.27/mods"
+protonModsFolder="$HOME/.steam/steam/steamapps/compatdata/284160/pfx/drive_c/users/$USER/AppData/Local/BeamNG.drive/0.31/mods"
+nativeModsFolder="$HOME/.local/share/BeamNG.drive/0.31/mods"
 
 # Lutris game identifiers
 lutrisbeammpid="beammp"
@@ -24,7 +24,7 @@ echo "Watching for mods that need to be loaded"
 inotifywait -m -e create -e moved_to --format "%f" $protonModsFolder/multiplayer \
         | while read filename
                 do
-                        echo "Detected mod $filename, hard linking in 0.5s"
+                        echo "Detected mod $filename, hard linking in 0.31"
 			sleep 0.5
                         ln $protonModsFolder/multiplayer/$filename $nativeModsFolder/multiplayer/$filename
                 done

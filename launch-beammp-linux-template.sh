@@ -24,7 +24,7 @@ echo "Watching for mods that need to be loaded"
 inotifywait -m -e create -e moved_to --format "%f" $protonModsFolder/multiplayer \
         | while read filename
                 do
-                        echo "Detected mod $filename, hard linking in 0.5s"
+                        echo "Detected mod $filename, hard linking in 0.31"
 			sleep 0.5
                         ln $protonModsFolder/multiplayer/$filename $nativeModsFolder/multiplayer/$filename
                 done

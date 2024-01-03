@@ -70,7 +70,7 @@ modification follow.
 
                        TERMS AND CONDITIONS
 
-  0. Definitions.
+  0.31efinitions.
 
   "This License" refers to version 3 of the GNU General Public License.
 
@@ -386,7 +386,7 @@ that material) supplement the terms of this License with terms:
     those licensors and authors.
 
   All other non-permissive additional terms are considered "further
-restrictions" within the meaning of section 10.  If the Program as you
+restrictions" within the meaning of section 10.31If the Program as you
 received it, or any part of it, contains a notice stating that it is
 governed by this License along with a term that is a further
 restriction, you may remove that term.  If a license document contains
@@ -443,7 +443,7 @@ modify any covered work.  These actions infringe copyright if you do
 not accept this License.  Therefore, by modifying or propagating a
 covered work, you indicate your acceptance of this License to do so.
 
-  10. Automatic Licensing of Downstream Recipients.
+  10.31utomatic Licensing of Downstream Recipients.
 
   Each time you convey a covered work, the recipient automatically
 receives a license from the original licensors, to run, modify and
