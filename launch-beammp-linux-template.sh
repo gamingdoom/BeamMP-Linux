@@ -26,5 +26,5 @@ inotifywait -m -e create -e moved_to --format "%f" $protonModsFolder/multiplayer
                 do
                         echo "Detected mod $filename, hard linking in .5s"
 			sleep 0.5
-                        ln $protonModsFolder/multiplayer/$filename $nativeModsFolder/multiplayer/$filename
+                        ln "$protonModsFolder/multiplayer/$filename" "$nativeModsFolder/multiplayer/${filename,,}"
                 done
