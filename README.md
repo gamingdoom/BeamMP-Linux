@@ -1,3 +1,6 @@
+# Note
+I wouldn't recommend using this as I have ported the BeamMP launcher to Linux. The port is available [here](https://github.com/BeamMP/BeamMP-Launcher/tree/linux).
+
 # BeamMP-Linux
 BeamMP-Linux is a set of scripts to run BeamMP with the native Linux build of BeamNG.Drive. The native Linux build Of BeamNG.Drive runs a lot faster than the Windows build through wine (2.5-10x higher FPS on my computer).
 
